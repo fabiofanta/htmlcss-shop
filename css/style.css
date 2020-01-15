@@ -29,13 +29,12 @@ div:after {
 
 }
 div:hover:before {
-    content: "\02661";
+    content: "\02665";
     position: absolute;
     right: 45%;
     bottom: 0;
     padding: 2px;
     font-size: 50px;
     cursor: pointer;
-    background: red;
-    display:inline;
+    color: red;
 }
