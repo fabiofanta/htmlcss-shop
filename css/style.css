@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+background-color: lightgrey;
+text-align: center;
+}
+img {
+    width: 430px;
+    height: 470px;
+}
+div {
+    display: inline-block;
+    margin:10px 2px;
+    position: relative;
+}
+div:after {
+    content: "-30%";
+    position: absolute;
+    right: 0;
+    top: 5px;
+    background-color: green;
+    padding: 2px;
+}
+.iphone::after {
+    content:"-5%";
+    background-color: red;
+
+}
+div:hover:before {
+    content: "\02661";
+    position: absolute;
+    right: 45%;
+    bottom: 0;
+    padding: 2px;
+    font-size: 50px;
+    cursor: pointer;
+    background: red;
+    display:inline;
+}
